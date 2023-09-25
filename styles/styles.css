@@ -1,39 +1,39 @@
 body {
     text-align: center;
-  }
-  nav {
+}
+nav {
     background-color: steelblue;
     padding: 10px;
-  }
-  a {
+}
+a {
     color: white;
     margin: 40px;
-  }
-  h1 {
+}
+h1 {
     color: steelblue;
   }
-  img {
+img {
     width: 800px;
     border: 4px solid steelblue;
-  }
-  p {
+}
+p {
     padding: 10px;
-  }
-  footer {
+}
+footer {
     background-color: steelblue;
     color: white;
-  }
-  h1 {
+}
+h1 {
     color: steelblue;
-  }
-  img {
+}
+img {
     width: 800px;
     border: 4px solid steelblue;
-  }
-  p {
+}
+p {
     padding: 10px;
-  }
-  footer {
+}
+footer {
     background-color: steelblue;
     color: white;
-  }
+}
