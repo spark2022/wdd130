@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+}
+#content{
+    max-width: 1600px;
+    margin: 0 auto;    
+}
+img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;       
+}
+#img-footer {
+    margin: 0 auto; 
+}
+footer {
+    background-color: gray;
+}
