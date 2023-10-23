@@ -1,5 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&family=Syncopate:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&family=Syncopate:wght@700&display=swap');
 body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+    font-size: 22px;
+}
+h2 {
     margin: 0;
 }
 #content {
@@ -10,10 +16,13 @@ nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 .home-title{
     color: #22577A;
+    font-family: 'Syncopate', sans-serif;
     font-size: 2em;
+    margin-top: 10px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -23,6 +32,9 @@ nav a {
 }
 main section {
     text-align: center;
+}
+main section img {
+    box-sizing: border-box;
 }
 h4 {
     color:#22577A;
@@ -45,6 +57,9 @@ nav a:hover {
     color: white;
     text-decoration: none;   
     font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color:#22577A;
@@ -55,18 +70,30 @@ nav a:hover {
 }
 .msg {
     background-color: #CBF3F0;
-    color:#22577A;
+    color:#22577A;    
+    line-height: 1.5em;
+    padding: 35px;    
 }
 .msg h2 {
     color: black;
 }
 .msg p {
     color: gray;
-    font-size: 8em;
+    font-family: 'Outfit', sans-serif;
+    font-size: 2em;
+    padding-bottom: 15px;    
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #CBF3F0;
 }
 footer {
     background-color: #22577A;
-    color: white
+    color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     color: white;
@@ -84,6 +111,13 @@ footer p a:hover {
 .logo {
     width: 80px;
 }
+#logo_link {
+    padding-top: 5px;
+}
 .icon {
     width: 80px;
+    padding-top: 10px;
+}
+footer .social img {
+    padding-top: 15px;
 }
